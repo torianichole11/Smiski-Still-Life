@@ -1,0 +1,153 @@
+body, html {
+	background: #D3C1D2;
+	background: radial-gradient(circle, rgba(211, 193, 210, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+#head {
+	position: absolute;
+	top: 100px;
+	left: 525px;
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	background: #8FBC8F;
+	background: radial-gradient(circle, rgba(143, 188, 143, 1) 0%, rgba(92, 153, 92, 1) 70%);
+}
+
+#nose {
+	position: absolute;
+	top: 310px;
+	left: 760px;
+	width: 0;
+	height: 0;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 55px solid #CCE0CC;
+	background: radial-gradient(circle, rgba(204, 224, 204, 1) 0%, rgba(115, 171, 115, 1) 69%);
+}
+
+#leftEye {
+	position: absolute;
+	top: 285px;
+	left: 650px;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background: #4E7E4E;
+background: radial-gradient(circle, rgba(78, 126, 78, 1) 6%, rgba(54, 89, 54, 1) 79%);
+}
+
+#rightEye {
+	position: absolute;
+	top: 285px;
+	left: 850px;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background: #4E7E4E;
+background: radial-gradient(circle, rgba(78, 126, 78, 1) 6%, rgba(54, 89, 54, 1) 79%);
+}
+
+#mouth {
+	position: absolute;
+	top: 450px;
+	left: 725px;
+	width: 100px;
+	height: 20px;
+	border-radius: 100px / 50px;
+	background: #4E7E4E;
+background: radial-gradient(circle, rgba(78, 126, 78, 1) 6%, rgba(54, 89, 54, 1) 79%);
+    }
+
+#trapezoid {
+	position: absolute;
+	top: 565px;
+	left: 547px;
+	border-bottom: 260px solid #73AB73;
+	border-left: 90px solid transparent;
+	border-right: 90px solid transparent;
+	background: radial-gradient(circle, rgba(78, 126, 78, 1) 6%, rgba(54, 89, 54, 1) 79%);
+	height: 0;
+	width: 275px;
+    }
+
+#rightArm {
+	position: absolute;
+	top: 550px;
+	left: 500px;
+	width: 225px;
+	height: 100px;
+	border-radius: 100px / 50px;
+	background: #5C995C;
+background: linear-gradient(0deg,rgba(92, 153, 92, 1) 0%, rgba(143, 188, 143, 1) 50%, rgba(92, 153, 92, 1) 100%);
+	transform: rotate(289deg);
+}
+
+#leftArm {
+	position: absolute;
+	top: 550px;
+	left: 825px;
+	width: 225px;
+	height: 100px;
+	border-radius: 100px / 50px;
+	background: #5C995C;
+background: linear-gradient(0deg,rgba(92, 153, 92, 1) 0%, rgba(143, 188, 143, 1) 50%, rgba(92, 153, 92, 1) 100%);
+	transform: rotate(71deg);
+}
+
+#rightHand {
+	position: absolute;
+	top: 400px;
+	left: 550px;
+	width: 125px;
+	height: 100px;
+	border-radius: 100px / 50px;
+	background: #8FBC8F;
+background: radial-gradient(circle, rgba(143, 188, 143, 1) 0%, rgba(92, 153, 92, 1) 90%);
+	transform: rotate(60deg);
+}
+
+#leftHand {
+	position: absolute;
+	top: 400px;
+	left: 870px;
+	width: 125px;
+	height: 100px;
+	border-radius: 100px / 50px;
+	background: #8FBC8F;
+background: radial-gradient(circle, rgba(143, 188, 143, 1) 0%, rgba(92, 153, 92, 1) 90%);
+	transform: rotate(300deg);
+}
+
+#half-circle-top {
+	position: absolute;
+	top: 70px;
+	left: 510px;
+	width: 525px;         /* The full width of the circle's diameter */
+	height: 275px;        /* Half of the width */
+	background: #57C789;
+background: radial-gradient(circle,rgba(87, 199, 137, 1) 0%, rgba(56, 168, 107, 1) 42%); /* Choose a background color */
+	border-radius: 500px 500px 0 0; /* top-left, top-right, bottom-right, bottom-left */
+}
+
+#leftEar {
+	position: absolute;
+	top: 275px;
+	left: 460px;
+	width: 105px;
+	height: 120px;
+	border-radius: 50%;
+	background: #57C789;
+background: radial-gradient(circle,rgba(87, 199, 137, 1) 0%, rgba(56, 168, 107, 1) 42%);
+}
+
+#rightEar {
+	position: absolute;
+	top: 275px;
+	left: 985px;
+	width: 105px;
+	height: 120px;
+	border-radius: 50%;
+	background: #57C789;
+background: radial-gradient(circle,rgba(87, 199, 137, 1) 0%, rgba(56, 168, 107, 1) 42%);
+}
